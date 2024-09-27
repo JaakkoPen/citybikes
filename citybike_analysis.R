@@ -1,8 +1,8 @@
 library(dplyr)
 library(tidyverse)
 
-# Read the data (downloaded from dev.hsl.fi/citybikes/od-trips-2021/od-trips-2021.zip)
-data <- read.csv("/Users/jaakkopentik/downloads/od-trips-2021/2021-08.csv")
+# Read the data (downloaded from dev.hsl.fi/citybikes/od-trips-2023/od-trips-2023.zip)
+data <- read.csv("/Users/jaakkopentik/downloads/od-trips-2023/2023-08.csv")
 
 # This shows the top 10 departure stations
 top_departure_stations <- data %>% count(Departure.station.name, sort = TRUE) %>% top_n(10, n)

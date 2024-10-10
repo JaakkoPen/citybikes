@@ -2,3 +2,5 @@ This project studies Helsinki City bike data with R and Python. The scripts incl
 
 <img src="HSL_bikes.png" alt="HSL_bikes" width="250"/>
 Image source: https://hsl.mediabank.fi/fi/material/single/24120
+
+<img src="korjaamo_departures.png" alt="korjaamo_departures" width="250"/>

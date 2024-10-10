@@ -10,6 +10,14 @@ top_departure_stations <- data %>% count(Departure.station.name, sort = TRUE) %>
 # This shows the top 10 return stations
 top_return_stations <- data %>% count(Return.station.name, sort = TRUE) %>% top_n(10, n)
 
+# This shows departures from a specific station
+specific_departure_station <- data %>% count(Departure.station.name, sort = TRUE) %>% 
+                              filter(Departure.station.name == "Korjaamo")
+
+# This shows returns to a specific station
+specific_return_station <- data %>% count(Return.station.name, sort = TRUE) %>% 
+                           filter(Return.station.name == "Korjaamo")
+
 # Most covered distance
 most_covered_distance <- data %>% group_by(Departure.station.name) %>% 
                          select(Return.station.name, Covered.distance..m., Duration..sec..) %>% 

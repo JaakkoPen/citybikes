@@ -25,6 +25,9 @@ most_covered_distance <- data %>% group_by(Departure.station.name) %>%
                          mutate(Duration.in.hours = Duration..sec.. / 3600) %>% 
                          select(-Covered.distance..m., -Duration..sec..)
 
+# Mean duration of all trips (in minutes)
+mean_duration <- data %>% summarise(Mean.duration = mean(Duration..sec.. / 60))
+
 # Most frequent trip between two stations (top 10)
 most_frequent_trip <- data %>% count(Departure.station.name, Return.station.name, sort = TRUE) %>%
                       top_n(10, n)

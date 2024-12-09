@@ -6,7 +6,4 @@ Figure 1. All trips by year since the establishment of the current city bike sys
 Figure 2. Trips by month in peak year 2019.
 <img src="monthly_trips_2019.png" alt="all_trips" width="550"/>
 
-Figure 3. Departures and returns by month from Korjaamo bike station in season 2023.
-<img src="korjaamo_departures_and_returns.png" alt="korjaamo_departures" width="650"/>
-
 Learn more about Helsinki City Bikes here: https://www.hsl.fi/en/citybikes

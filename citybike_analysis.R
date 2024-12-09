@@ -1,8 +1,11 @@
 library(dplyr)
 library(tidyverse)
 
-# Read the data (downloaded from dev.hsl.fi/citybikes/od-trips-2023/od-trips-2023.zip)
-data <- read.csv("/Users/jaakkopentik/downloads/od-trips-2023/2023-08.csv")
+# Read the data (downloaded from dev.hsl.fi/citybikes/od-trips-2024/od-trips-2024.zip)
+data <- read.csv("/Users/jaakkopentik/downloads/od-trips-2024/2024-08.csv")
+
+# Check the dimensions of the data (this shows also the number of all trips)
+dim(data)
 
 # This shows the top 10 departure stations
 top_departure_stations <- data %>% count(Departure.station.name, sort = TRUE) %>% slice_head(n = 10)

@@ -3,7 +3,7 @@ This project studies Helsinki City Bikes data with R and Python. Two similar scr
 Figure 1. All monthly departures and returns from Korjaamo bike station in season 2023.
 <img src="korjaamo_departures_and_returns.png" alt="korjaamo_departures" width="650"/>
 
-Figure 2. All annual trips since the establishment of the current city bike system.
+Figure 2. All trips by year since the establishment of the current city bike system.
 <img src="all_trips.png" alt="all_trips" width="650"/>
 
 Learn more about Helsinki City Bikes here: https://www.hsl.fi/en/citybikes

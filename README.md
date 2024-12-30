@@ -1,4 +1,4 @@
-<div>This project studies Helsinki City Bikes data with R and Python. Two similar scripts include functions which calculate the most used bike stations, the most frequent trip between two stations and the longest trips made by bike users. You can also see how the code is executed in the .ipynb file. The source data is freely accesible and can be found from HSL.fi. Below are shown few figures that are obtained from the scripts.
+<div>This project studies Helsinki City Bikes data with R and Python. Two similar scripts include functions which calculate the most used bike stations, the most frequent trip between two stations and the longest trips made by bike users. You can also see how the code is executed in the .ipynb file. The .numbers file shows data visuals that were obtained from the scripts. The source data is freely accesible and can be found from HSL.fi. Below are shown few figures which have utilized the source data.
 </div>
 </br>
 <div><img src="all_trips.png" alt="all_trips" width="550"/>
